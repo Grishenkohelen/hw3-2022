@@ -1,0 +1,66 @@
+.body{
+    margin:0px;
+}
+.father{
+    background: #6e7777;
+    height: 700px;
+    width: 1000px;
+
+}
+.container_header{
+    background: grey;
+    height: 150px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    height: 50px;
+    width: 150px;
+    background: #064346;
+    margin-left: 50px;
+    border-radius:10px
+}
+.icon{
+    height: 50px;
+    width:100px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-bars, .fa-magnifying-glass{
+    font-size: 40px;
+}
+.container_center{
+    background: #064346;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrap {
+    height: 200px;
+    width: 800px;
+    /*background: #37624d;*/
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    bottom: -50px;
+}
+
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background: #6e47d2;
+    border-radius: 10px;
+}
+
+
+.container_bottom{
+
+}
